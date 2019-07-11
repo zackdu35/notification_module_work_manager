@@ -1,9 +1,3 @@
-package fr.dreamo.notification
-
-import android.content.Context
-import android.preference.PreferenceManager
-
-
 class PrefUtils {
 
     companion object {

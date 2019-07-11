@@ -1,13 +1,3 @@
-package fr.dreamo.notification
-
-import android.content.Context
-import android.util.Log
-import androidx.work.Data
-import androidx.work.OneTimeWorkRequest
-import androidx.work.WorkManager
-import java.util.*
-import java.util.concurrent.TimeUnit
-
 class NotificationManager(var context: Context) {
 
     private val workManager = WorkManager.getInstance()
